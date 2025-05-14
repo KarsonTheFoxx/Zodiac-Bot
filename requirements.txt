@@ -1,0 +1,7 @@
+disnake
+disnake-ext-plugins
+aiosqlite
+flask
+google-api-python-client
+rss-parser
+dotenv
