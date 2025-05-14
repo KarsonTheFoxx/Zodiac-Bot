@@ -2,7 +2,7 @@
 A simple Discord bot for 2Known and the Zodiac community written in Python using [Disnake](https://pypi.org/project/disnake/)
 
 ## TODO
-- Create pubbubhubdub server (WebServer, I think the other name is funnier)
+- Create pubbubhubdub server (WebSub, I think the other name is funnier)
 - Finish moderation commands
 - Rewrite hardcoded sections to utilize a database to make the bot extendable + customizable
 - Rewrite views to use low level components to allow cross-reboot usability
@@ -24,3 +24,8 @@ Changelog
 
 Notes
 More features planned soonish. Depends on when I have time to write code for new features
+
+### V0.1.1
+Changelog
+- Fixed typo in README.md
+> Changed "WebServer" to "WebSub" in the TODO list
