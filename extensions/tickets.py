@@ -59,7 +59,7 @@ class createTicketModal(ui.Modal):
         await ticket.set_permissions(target=inter.guild.default_role, overwrite=self.EVERYONE_PERMISSIONS_OVERWRITE)
         await ticket.set_permissions(target=self.moderator_role, overwrite=self.MODERATOR_PERMISSION_OVERWRITES)
 
-        await ticket.send(f"{inter.author.mention}\n-# Ticket opened <t:{int(utils.utcnow().timestamp())}:R> (<t:{int(utils.utcnow().timestamp())}:F)", embed=embed, view=closeTicketView())
+        await ticket.send(f"{inter.author.mention}{self.moderator_role.mention}\n-# Ticket opened <t:{int(utils.utcnow().timestamp())}:R> (<t:{int(utils.utcnow().timestamp())}:F)", embed=embed, view=closeTicketView())
         await inter.response.send_message(embed=Embed(title="Ticket created", color=Color.green()), ephemeral=True)
 
 class createTicketView(ui.View):

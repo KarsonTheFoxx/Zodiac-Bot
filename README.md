@@ -29,3 +29,13 @@ More features planned soonish. Depends on when I have time to write code for new
 Changelog
 - Fixed typo in README.md
 > Changed "WebServer" to "WebSub" in the TODO list
+
+### V0.1.2
+Changelog
+- Fixed issue with extensions/tickets.py
+> Hardcoded category_channel caused issues. Added permission changes to ticket
+### V0.1.3
+Changelog
+- Updated changelog
+> Changelog in last push was not updated
+- Added moderator_role ping to the message sent to the ticket
