@@ -31,4 +31,3 @@ async def on_ban_error(inter:CommandInteraction, error):
     await inter.response.send_message(embed=embed, ephemeral=True)
 
 setup, teardown = plugin.create_extension_handlers()
-print(type(ban))

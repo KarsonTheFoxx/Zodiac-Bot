@@ -1,5 +1,5 @@
 from disnake.ext import commands
-from disnake import Status, Activity, ActivityType, Intents, File
+from disnake import Activity, ActivityType, Intents
 from asyncio import run
 
 async def main():
