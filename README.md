@@ -39,3 +39,11 @@ Changelog
 - Updated changelog
 > Changelog in last push was not updated
 - Added moderator_role ping to the message sent to the ticket
+### V0.1.4
+Changelog
+- Formatted extensions\tickets.py
+> Modified whitespace and class order to view, view, modal, modal to clean up the file. Added comments
+- Formatted main.py
+> Modified whitespace to clean up. Moved imports in main() to other imports block for consistency
+- Formatted extensions/moderation.py
+> Modified whitespace to clean up
